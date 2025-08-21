@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: LlaveController
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":301.7112,"y":36.8793},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-9.0,"y":-51.0},"guid":"ff733e1d-e174-4874-b65d-dc57a4f9cae3","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"9"},{"type":"System.String","value":{"$content":"Player","$type":"System.String"},"defaultValues":{},"position":{"x":-164.0,"y":-53.0},"guid":"19e78a8c-bd8a-4694-9048-40aa2b2a36a9","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"12"},{"chainable":false,"parameterNames":["obj"],"member":{"name":"Destroy","parameterTypes":["UnityEngine.Object"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"%obj":null},"position":{"x":211.0,"y":-39.0},"guid":"f91ca12e-7f32-4f24-a42b-717a008de60b","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"14"},{"defaultValues":{},"position":{"x":104.0,"y":94.0},"guid":"9b425eeb-ae58-4b7a-8335-f713b22ca9b1","$version":"A","$type":"Unity.VisualScripting.This","$id":"18"},{"chainable":false,"member":{"name":"sprite","parameterTypes":null,"targetType":"UnityEngine.SpriteRenderer","targetTypeName":"UnityEngine.SpriteRenderer","$version":"A"},"defaultValues":{"target":null,"input":{"$content":1,"$type":"UnityEngine.Object"}},"position":{"x":428.0,"y":-38.0},"guid":"f3e0be73-0c8d-4084-9f41-04891027e01b","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"20"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Puerta","$type":"System.String"},"object":null},"position":{"x":232.0,"y":87.0},"guid":"f21442ca-b1e7-48cf-9bb2-5ad5d3d0554e","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"23"},{"sourceUnit":{"$ref":"9"},"sourceKey":"Objetivo","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"6e02fa28-9c32-4073-91fe-3c5144f4effc","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"exit","destinationUnit":{"$ref":"20"},"destinationKey":"assign","guid":"3bb81114-d29a-4000-8936-2a3da0ea9e0b","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"9"},"destinationKey":"Tag","guid":"5aae654a-f0b0-41b4-ae1a-3726291d43d8","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"self","destinationUnit":{"$ref":"14"},"destinationKey":"%obj","guid":"26027a65-8c59-4ad0-87ca-30dbf56dc6bb","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"target","guid":"bf6dd443-972b-4123-bae3-e923738bf2df","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 2ec24488a39329a438eb938d5d941848, type: 2}
+    - {fileID: 9087207327684497215, guid: 81e8f0ddfc8fafc4b9d319ee14bbdf23, type: 3}
