@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 3061947455603755162}
   - component: {fileID: 6932831053818868182}
   - component: {fileID: 7950631119117399233}
+  - component: {fileID: 8806912137075074466}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Player
@@ -306,3 +307,19 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 026cb1c6b1ccd274b9cbf3153f1a8755, type: 2}
+--- !u!114 &8806912137075074466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7064499080426207467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c21a078b79e3e784fb0f0c563a830f69, type: 2}
